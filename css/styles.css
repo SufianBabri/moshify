@@ -727,6 +727,26 @@ a {
 	}
 }
 
+/* Feature */
+.feature {
+	column-gap: 10rem;
+	align-items: start;
+}
+.feature h3 {
+	margin-top: 2.5rem;
+}
+
+.feature img {
+	max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	.feature--reverse {
+		direction: rtl;
+		text-align: left;
+	}
+}
+
 /* Domain Block */
 .block-domain .input-group {
 	box-shadow: 0 0 30px 20px #e6ebee;
