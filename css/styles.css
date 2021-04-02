@@ -729,21 +729,26 @@ a {
 
 /* Feature */
 .feature {
-	column-gap: 10rem;
+	gap: 4rem 2rem;
 	align-items: start;
-}
-.feature h3 {
-	margin-top: 2.5rem;
+	margin: 12rem 0;
 }
 
-.feature img {
+.feature:first-of-type {
+	margin-top: 6rem;
+}
+
+.feature__heading {
+	margin: 1rem 0;
+}
+
+.feature__image {
 	max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-	.feature--reverse {
-		direction: rtl;
-		text-align: left;
+	.feature:nth-of-type(even) .feature__content {
+		order: 2;
 	}
 }
 
