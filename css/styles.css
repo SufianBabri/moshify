@@ -380,7 +380,7 @@ a {
 }
 
 .plan--popular {
-	transition: scale(1.15);
+	transform: scale(1.15);
 }
 
 .plan--popular .card__header {
@@ -537,7 +537,6 @@ a {
 /* Callouts */
 .callout {
 	padding: 4rem;
-	background-repeat: 5px;
 	border-radius: 8px;
 }
 
