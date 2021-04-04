@@ -884,6 +884,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+	.footer {
+		font-size: 1.5rem;
+	}
+
 	.footer__sections {
 		align-items: start;
 		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
@@ -895,6 +899,11 @@ a {
 
 	.footer .collapsible__chevron {
 		display: none;
+	}
+
+	.footer .collapsible__content {
+		opacity: 1;
+		max-height: 100%;
 	}
 
 	.footer .callout__content {
