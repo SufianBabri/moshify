@@ -1,3 +1,5 @@
+@import './normalize.css';
+
 :root {
 	--color-primary: #2584ff;
 	--color-secondary: #00d9ff;
@@ -344,6 +346,7 @@ a {
 /* Plans */
 .plan {
 	transition: transform 0.2s ease-out;
+	margin-bottom: 2rem;
 }
 
 .plan:hover {
@@ -379,10 +382,6 @@ a {
 	margin-bottom: 2rem;
 }
 
-.plan--popular {
-	transform: scale(1.15);
-}
-
 .plan--popular .card__header {
 	position: relative;
 }
@@ -397,6 +396,14 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
+	.plan--popular {
+		transform: scale(1.1);
+	}
+
+	.plan--popular:hover {
+		transform: scale(1.15);
+	}
+
 	.plan__name {
 		font-size: 1.4rem;
 	}
